@@ -1,0 +1,24 @@
+1. Cors issue 
+    0. use firefox browser 
+    1.  disable chrome web-security 
+        Type windows+R or open "Run"  and then execute the following command:
+            chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+    2. stop running as file but run in http protocol
+        access it using Live server 
+            http://localhost:5000
+
+2. dataTables info 
+    dataajax call to json response 
+        https://datatables.net/manual/ajax
+
+    if our data was only html table 
+        https://datatables.net/examples/data_sources/dom.html
+
+3. Live Server . 
+    - Open VS Code and select Extensions, then search for Live Server. Click Install: 
+    //or
+    Open the Command Pallete by pressing F1 or ctrl+shift+P and 
+    type Live Server: Open With Live Server to start a server or 
+    type Live Server: Stop Live Server to stop a server
+    //or using node 
+        Install live-server: npm install -g live-server

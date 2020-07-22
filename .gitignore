@@ -1,0 +1,13 @@
+zFiles/
+docs/
+zMidTerm/
+final*
+lab15x
+*.docx
+*.doc*
+*.log
+*~
+zTest/
+zTmp.txt
+zNext.txt
+zHTML.html
